@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>🦠Covid Test</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+    <h1>🚩🦠 Watch Out, <a href = "https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Covid</a> Is Real 🦠💢</h1>
+    <div>
+        <img id="tester" src="original.jpg" />
+    </div>
+
+    <div id="text"><strong>Choose Your Result</strong></div>
+
+    <div>
+        <button onclick="positive()">Sho' Positive (➕)</button>
+        <button onclick="negative()">Sho' Negative (➖)</button>
+    </div>
+    <div class = "return"> <strong><a href = d3_covid.html>Return</a></strong></div>
+
+    <footer class = "footer">Copyright© <a href = "https://shot.mba/" target="_blank">Showee</a> of <a href = "https://shokolatte.com" target = "_blank"> Sho-Boo Entertainment</a> 2022</footer>
+</body>
+<script src = "https://d3js.org/d3.v4.min.js"></script>
+<script>
+    function positive() {
+        d3.select("#text").html("<font color = red><strong>This is how you know you're f'd.</strong></font>");
+        let pp = d3.select("#tester").attr("src");
+        
+        if (pp === "positiveAll.jpg") {
+            d3.select("#tester").attr("src", "WearAMask.png")
+        } else {
+            d3.select("#tester").attr("src", "positiveAll.jpg")
+        }
+    }
+
+    function negative() {
+        d3.select("#text").html("<font color = navy><strong>Accept the negativity. </strong><font size = 1rem>*only some special occasions</font></font>")
+        let np = d3.select("#tester").attr("src");
+        
+        if (np === "negative.jpg") {
+            d3.select("#tester").attr("src", "vybezonly.png")
+        } else {
+            d3.select("#tester").attr("src", "negative.jpg")
+        }
+    }
+
+
+</script>
+
+</html>

@@ -103,7 +103,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .paralax-mf {
@@ -765,7 +765,7 @@ a:hover {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #0078ff;
+  background-color: "blue";
 }
 
 /*--------------------------------------------------------------

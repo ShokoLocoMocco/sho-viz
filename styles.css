@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  }
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Caveat+Brush&family=Coming+Soon&family=Dancing+Script:wght@700&family=Fredericka+the+Great&family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,400;1,400&family=Pacifico&family=Passion+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,800&family=Raleway:wght@200;400;700&family=Rubik+Moonrocks&family=Rubik:wght@300;400&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+    font-family: 'Poppins', cursive;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-image: linear-gradient(
+        120deg, 
+        rgba(0, 0, 0, .8),     
+         rgba(255, 100, 100, .4)),
+      url("covid_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+h1 {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 > a {
+    color: firebrick;
+}
+
+h1 > a:hover {
+    color: yellow;
+}
+
+img {
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+}
+
+#text {
+    font-size: 2rem;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: firebrick;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    font-family: 'Poppins', 'Open Sans', cursive;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: red;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: firebrick;
+  }
+
+.return {
+    margin: 30px;
+    font-size: 1.2rem;
+}  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+  }
+
+  .footer > a {
+    color: whitesmoke;
+  }
