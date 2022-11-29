@@ -11,7 +11,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
 body {
-    font-family: 'Poppins', cursive;
+    font-family: 'Verdana', sans-serif;
     width: 100%;
     display: block;
     text-align: center;
@@ -31,6 +31,7 @@ h1 {
     color: white;
     padding: 20px;
     width: 100%;
+    font-family: 'Verdana', sans-serif;
 }
 
 h1 > a {
@@ -49,7 +50,7 @@ img {
 
 @media (max-width: 800px) {
     img {
-        object-fit: cover;
+        width: auto;
     }
 }
 
@@ -64,7 +65,7 @@ button {
     color: white;
     padding: 5px 10px;
     border: none;
-    font-family: 'Poppins', 'Open Sans', cursive;
+    font-family: 'Verdana', sans-serif;
     font-weight: 500;
 }
 
