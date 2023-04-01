@@ -1,0 +1,12 @@
+The portion of job titles I applied for in 2022.
+1. Data Analyst
+2. Business Analyst
+3. Analyst (Other)
+
+
+Portion of my applications to Data Analyst vs. Business Analyst in animation.
+.
+{gganimate} {ggplot2} {magick}
+.
+#R #rprogramming #jobapplication #jobapplications #animation #datavisualization #dataviz #ggplot2 #gganimate #magick 
+#analyst #dataanalyst #businessanalyst #mba #gradschool #masterofscience #datafam 
