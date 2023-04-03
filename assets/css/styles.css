@@ -20,7 +20,7 @@ body {
         120deg, 
         rgba(0, 0, 0, .8),     
          rgba(255, 100, 100, .4)),
-      url("covid_bg.png");
+      url("img/covid_bg.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
