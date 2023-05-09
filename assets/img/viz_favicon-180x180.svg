@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 180 180">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 9.47px;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-4 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .95px;
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: #4d4d4d;
+        font-family: BalboaPlus-Fill, BalboaPlus;
+        font-size: 29.35px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-1533.75" y1="2612.35" x2="-1388.28" y2="2612.35" gradientTransform="translate(-1406.34 -2502.15) rotate(-59.2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#664e9f"/>
+      <stop offset="0" stop-color="#fff23a"/>
+      <stop offset="0" stop-color="#feed3a"/>
+      <stop offset="0" stop-color="#f9cb3b"/>
+      <stop offset="0" stop-color="#f6b13d"/>
+      <stop offset="0" stop-color="#f39e3e"/>
+      <stop offset="0" stop-color="#f2923e"/>
+      <stop offset="0" stop-color="#f28f3f"/>
+      <stop offset=".27" stop-color="#ac687f"/>
+      <stop offset=".43" stop-color="#8855a1"/>
+      <stop offset=".89" stop-color="#2c5a95"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-1058.91" y1="1208.33" x2="-904.44" y2="1208.33" gradientTransform="translate(1087.46 -1104.05) rotate(.8)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <g>
+      <polygon id="in_outer_line" data-name="in outer line" class="cls-6" points="89.45 174.44 162.2 132.44 162.2 48.45 89.45 6.45 16.71 48.45 16.71 132.44 89.45 174.44"/>
+      <text class="cls-7" transform="translate(57.61 64.95) scale(1.46 1)"><tspan x="0" y="0">Sho’</tspan><tspan x="4.62" y="35.22">Viz </tspan><tspan x="-8.22" y="70.45">Tod</tspan><tspan class="cls-5" x="31.82" y="70.45">a</tspan><tspan x="42.36" y="70.45">y</tspan></text>
+      <polygon class="cls-2" points="157.24 51.69 157.57 129.77 89.78 168.53 21.66 129.2 21.33 51.12 89.12 12.36 157.24 51.69"/>
+    </g>
+    <g>
+      <polygon class="cls-3" points="160.93 132.38 89.01 174.31 17.08 132.38 17.08 48.51 89 6.58 160.93 48.51 160.93 132.38"/>
+      <polygon id="in_outer_line-2" data-name="in outer line" class="cls-4" points="11.89 135.22 89.45 180 167.01 135.22 167.01 45.67 89.45 .89 11.89 45.67 11.89 135.22"/>
+    </g>
+  </g>
+  <circle class="cls-1" cx="89.45" cy="90.44" r="89.45"/>
+</svg>
