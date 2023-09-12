@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
 
-/*
+
 body {
-  background: #D7C3A3;
+  background: #FFFFED;
 }
-*/
+
 
 h1 {
-  font-family: 'Salsa', cursive;
+  font-family: 'Galada', cursive;
   font-size: 2.25rem;
 }
 
